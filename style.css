@@ -26,40 +26,18 @@ button {
     border-radius: 10px;
     max-width: 90%;
     text-align: center;
+    position: relative;
 }
 
 .passo.ativo {
     display: block;
 }
 
-img {
-    max-width: 90%;
-    border-radius: 10px;
-}
-
-.grupo-entrada {
-    background-color: #2C3E50;
-}
-
-.grupo-atletas {
-    background-color: #1E90FF;
-}
-
-.grupo-populares {
-    background-color: #FF69B4;
-}
-
-.grupo-nerds {
-    background-color: #FFFFFF;
-    color: #000000;
-}
-
-.tela-inicial {
-    text-align: center;
-}
-
-.btn-reiniciar {
-    background-color: #FF6347;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background
